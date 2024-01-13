@@ -1,0 +1,11 @@
+<div class="container mt-5 m-auto p-8 rounded-lg flex justify-center bg-[#333338] w-3/4">
+  <ul class="list-none ">
+    @for (todo of todos; track $index) {
+      <li>{{todo.title}} - @if (todo.completed) {
+        <span class="text-green-500">Completed</span>
+      } @else {
+        <span class="text-red-500">Not Completed</span>
+      }</li>
+    }
+  </ul>
+</div>
