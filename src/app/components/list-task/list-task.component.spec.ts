@@ -1,6 +1,6 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ListTodoComponent } from './list-todo.component';
+import { ListTodoComponent } from './list-task.component';
 
 describe('ListTodoComponent', () => {
   let component: ListTodoComponent;
@@ -10,8 +10,8 @@ describe('ListTodoComponent', () => {
     await TestBed.configureTestingModule({
       imports: [ListTodoComponent]
     })
-    .compileComponents();
-    
+      .compileComponents();
+
     fixture = TestBed.createComponent(ListTodoComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();

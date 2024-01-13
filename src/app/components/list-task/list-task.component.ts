@@ -1,17 +1,17 @@
 import { Component, OnInit, inject } from '@angular/core';
-import { Todo } from '@models/todo';
 
+import { Task } from '@models/todo.model';
 import { TodoService } from '@services/todo.service';
 
 @Component({
-  selector: 'app-list-todo',
+  selector: 'app-list-task',
   standalone: true,
   imports: [],
-  templateUrl: './list-todo.component.html',
+  templateUrl: './list-task.component.html',
 })
 export class ListTodoComponent implements OnInit {
 
-  todos!: Todo[];
+  todos!: Task[];
 
   private todoService = inject(TodoService);
 

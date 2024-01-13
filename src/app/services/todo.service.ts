@@ -1,5 +1,6 @@
 import { Injectable } from '@angular/core';
-import { Todo } from '@models/todo';
+
+import { Task } from '@models/todo.model';
 
 
 @Injectable({
@@ -9,7 +10,7 @@ export class TodoService {
 
   constructor() { }
 
-  getTodos(): Todo[] {
+  getTodos(): Task[] {
     return [
       {
         id: 1,

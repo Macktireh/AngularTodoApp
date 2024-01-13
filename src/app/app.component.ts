@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterOutlet } from '@angular/router';
 
-import { ListTodoComponent } from '@components/list-todo/list-todo.component';
+import { ListTodoComponent } from '@components/list-task/list-task.component';
 
 @Component({
   selector: 'app-root',
