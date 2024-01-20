@@ -25,15 +25,15 @@
     ],
     "paths": {
       "@components/*": [
-          "./src/app/components/*"
+        "./src/app/components/*"
       ],
       "@services/*": [
-          "./src/app/services/*"
+        "./src/app/services/*"
       ],
       "@models/*": [
-          "./src/app/models/*"
+        "./src/app/models/*"
       ],
-  },
+    },
   },
   "angularCompilerOptions": {
     "enableI18nLegacyMessageIdFormat": false,
